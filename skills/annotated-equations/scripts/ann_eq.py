@@ -1,3 +1,6 @@
+# Copyright 2026 Bennett Landman
+# SPDX-License-Identifier: Apache-2.0
+
 """Annotated equation renderer, adapted from the ES 1400 course-book generator.
 
 Measures terms and bracket labels, supports light/dark palettes and wide/narrow

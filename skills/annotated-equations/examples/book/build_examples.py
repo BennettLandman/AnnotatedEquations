@@ -1,3 +1,6 @@
+# Copyright 2026 Bennett Landman
+# SPDX-License-Identifier: Apache-2.0
+
 """Rebuild the ES 1400 teaching examples without an ES 1400 checkout.
 
 Equations and inset models adapted from Chapter 01, GOAT-EQ03/04/20/23/24/25.

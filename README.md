@@ -1,6 +1,6 @@
 # AnnotatedEquations
 
-**An agent skill for explaining equations visually.** Built by Bennett Landman while writing the ES 1400 engineering course book.
+**An agent skill for explaining equations visually.** Built by Bennett Landman while writing the ES 1400 engineering course book. Publicly available under [Apache 2.0](LICENSE).
 
 A goat is tied to the center of a square field. Its rope reaches the midpoint of each side. Now imagine the same problem in more dimensions. What fraction of the grass can it reach?
 
@@ -85,4 +85,8 @@ The package contains the agent instructions, Python renderer, editable example s
 
 Passing a layout check does not establish mathematical correctness or guarantee that a figure explains the intended idea. The agent must inspect the actual outputs and keep the mathematics, assumptions, caption, and inset consistent.
 
-Copyright © 2026 Bennett Landman. All rights reserved. See [NOTICE.md](NOTICE.md).
+## License
+
+Copyright © 2026 Bennett Landman. Licensed under the [Apache License 2.0](LICENSE). You can use, modify, and redistribute this repository under that license; retain the applicable license and attribution notices. See [NOTICE](NOTICE).
+
+The license covers this repository's code, skill instructions, documentation, and bundled examples. It does not change the licensing of the separate ES 1400 book or third-party dependencies. The installable skill folder includes its own copies of LICENSE and NOTICE.

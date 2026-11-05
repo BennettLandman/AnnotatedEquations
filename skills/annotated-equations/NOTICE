@@ -1,0 +1,11 @@
+AnnotatedEquations
+Copyright 2026 Bennett Landman
+
+The renderer and teaching conventions were adapted from Bennett Landman's
+ES 1400 course-book annotated equation system (tools/ann_eq.py and
+docs/equation-style-guide.md). The bundled book examples preserve their
+source figure IDs and provenance. This repository contains no course
+transcripts or original slide decks.
+
+Matplotlib and its bundled fonts retain their respective licenses.
+Dependencies are installed separately.

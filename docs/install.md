@@ -1,12 +1,11 @@
 # Install AnnotatedEquations
 
-The repository is private. You need GitHub access as Bennett Landman or an authorized collaborator. These commands use a macOS/Linux shell and GitHub CLI; cloning with another authenticated Git client is also fine.
+The repository is public and licensed under Apache 2.0. You can clone it over HTTPS without a GitHub account. These commands use a macOS/Linux shell and Git; use an equivalent folder copy with your preferred Git client on other platforms.
 
 ## 1. Get the repository
 
 ```sh
-gh auth status
-gh repo clone BennettLandman/AnnotatedEquations
+git clone https://github.com/BennettLandman/AnnotatedEquations.git
 cd AnnotatedEquations
 ```
 
@@ -19,7 +18,7 @@ mkdir -p ~/.codex/skills
 cp -R skills/annotated-equations ~/.codex/skills/
 ```
 
-If that destination already exists, back it up or review local modifications before replacing it. Keep the whole folder: the instructions refer to its scripts, references, and examples. Start a new chat/session and invoke `$annotated-equations`. If it is not discovered, check the host's configured skill directory; copying to an arbitrary folder does not register a skill.
+If that destination already exists, back it up or review local modifications before replacing it. Keep the whole folder, including LICENSE and NOTICE: the instructions refer to its scripts, references, and examples. Start a new chat/session and invoke `$annotated-equations`. If it is not discovered, check the host's configured skill directory; copying to an arbitrary folder does not register a skill.
 
 Other agents that support folder-based Agent Skills can use the same `skills/annotated-equations` folder in their own skill location. Discovery and invocation syntax depend on the host. The host needs file access, code execution, and image inspection to complete the full workflow. A text-only host can discuss annotations but cannot claim to have rendered and visually checked them.
 
@@ -63,7 +62,7 @@ Remove the installed `annotated-equations` folder from your agent's skill direct
 
 | What happened | What to check |
 | --- | --- |
-| Clone fails | Confirm your GitHub account can access this private repository. |
+| Clone fails | Check the public repository URL, your network, and whether Git is installed. No GitHub login is required for HTTPS cloning. |
 | The agent cannot find the skill | Check its configured skill directory, complete folder copy, and new-session discovery. |
 | `No module named matplotlib` | Use the virtual environment's Python, not a different `python3`. |
 | A math expression fails | This renderer supports Matplotlib mathtext, not arbitrary LaTeX packages or macros. See the rendering reference. |

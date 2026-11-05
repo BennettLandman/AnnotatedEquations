@@ -1,3 +1,6 @@
+# Copyright 2026 Bennett Landman
+# SPDX-License-Identifier: Apache-2.0
+
 """Render a trusted, declarative equation specification; never eval math input."""
 import argparse
 import json

@@ -1,3 +1,6 @@
+# Copyright 2026 Bennett Landman
+# SPDX-License-Identifier: Apache-2.0
+
 import copy
 import json
 from pathlib import Path

@@ -1,3 +1,6 @@
+# Copyright 2026 Bennett Landman
+# SPDX-License-Identifier: Apache-2.0
+
 """Verify the published gallery is reproducible and its numerical claims agree."""
 import importlib.util
 import json

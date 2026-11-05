@@ -38,3 +38,7 @@ Review the report and open the actual rendered PNGs. Check the mathematics, grou
 The size report estimates label/tick readability at the configured minimum display width. It does not measure every math glyph, superscript, subscript, legend, or custom inset annotation. Inspect those separately; choose larger type or split the expression rather than shrink text. The default target is at least 13.33 CSS pixels for visible text at minimum display size; use a destination-specific requirement when supplied.
 
 Return the images, editable specification, separate takeaway/caption, and alt text. SVG math is outlined for portability and is not accessible text; keep the equation and explanation available as text outside the image. Include any task-specific generator needed to reproduce a custom inset. State unresolved mathematical or visual uncertainty. Do not claim that passing geometry checks proves scientific correctness.
+
+## License and attribution
+
+This skill, its renderer, documentation, and bundled examples are licensed under [Apache 2.0](LICENSE). Preserve [NOTICE](NOTICE) and the license when redistributing the skill or derived packages. Dependencies retain their own licenses.
