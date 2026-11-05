@@ -1,0 +1,2 @@
+# Matplotlib emits multiline SVG path data with legal trailing separators.
+skills/annotated-equations/examples/book/figures/*.svg -whitespace
