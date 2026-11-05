@@ -1,0 +1,15 @@
+{
+  "source_repository": "BennettLandman/es1400book",
+  "source_commit": "84ec092e7d21ba0d30ee2694da18d6a90d3ea820",
+  "chapter": "apache-upload/chapter-01-goat.html",
+  "generator": "tools/goat_equations.py",
+  "figure_ids": [
+    "GOAT-EQ03",
+    "GOAT-EQ04",
+    "GOAT-EQ20",
+    "GOAT-EQ23",
+    "GOAT-EQ24",
+    "GOAT-EQ25"
+  ],
+  "adaptation": "Teaching cases preserve source mathematics and inset models; typography, labels, baselines, and subdued-bar contrast may be adapted to the standalone renderer. Bare versions remove labels and insets from the same equation rows."
+}

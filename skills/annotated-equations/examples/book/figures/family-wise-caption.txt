@@ -1,0 +1,3 @@
+Twenty independent tests at α = 0.05 give a 64% chance of at least one false positive; Bonferroni brings it back to 4.9%.
+
+Alt text: Annotated equations: FWER equals 1 minus 1 − alpha to the power m, and the per-test threshold alpha becomes alpha over m under Bonferroni. Salmon: the family-wise error rate, the chance of any false positive. Blue: 1 − alpha to the m, the chance that all m independent tests stay quiet, and the Bonferroni cutoff alpha over m. Brown: the per-test threshold alpha. Inset: the chance of any false positive for 1 to 60 tests; uncorrected tests at alpha = 0.05 climb to 64% at 20 tests, while Bonferroni stays just under 5%.

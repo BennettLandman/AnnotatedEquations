@@ -1,0 +1,302 @@
+[
+  {
+    "name": "GOAT-EQ03",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 2.82,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "fraction-wide-light.svg"
+  },
+  {
+    "name": "GOAT-EQ03",
+    "layout": "wide",
+    "theme": "dark",
+    "w": 8.0,
+    "h": 2.82,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "fraction-wide-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ03",
+    "layout": "narrow",
+    "theme": "light",
+    "w": 4.0,
+    "h": 5.066,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "fraction-narrow-light.svg"
+  },
+  {
+    "name": "GOAT-EQ03",
+    "layout": "narrow",
+    "theme": "dark",
+    "w": 4.0,
+    "h": 5.066,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "fraction-narrow-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ03-bare",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 0.69,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "fraction-bare.svg"
+  },
+  {
+    "name": "GOAT-EQ04",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 3.722,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "cancel-wide-light.svg"
+  },
+  {
+    "name": "GOAT-EQ04",
+    "layout": "wide",
+    "theme": "dark",
+    "w": 8.0,
+    "h": 3.722,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "cancel-wide-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ04",
+    "layout": "narrow",
+    "theme": "light",
+    "w": 4.0,
+    "h": 6.677,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "cancel-narrow-light.svg"
+  },
+  {
+    "name": "GOAT-EQ04",
+    "layout": "narrow",
+    "theme": "dark",
+    "w": 4.0,
+    "h": 6.677,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "cancel-narrow-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ04-bare",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 1.41,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "cancel-bare.svg"
+  },
+  {
+    "name": "GOAT-EQ20",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 2.82,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "step-two-wide-light.svg"
+  },
+  {
+    "name": "GOAT-EQ20",
+    "layout": "wide",
+    "theme": "dark",
+    "w": 8.0,
+    "h": 2.82,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "step-two-wide-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ20",
+    "layout": "narrow",
+    "theme": "light",
+    "w": 4.0,
+    "h": 5.751,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "step-two-narrow-light.svg"
+  },
+  {
+    "name": "GOAT-EQ20",
+    "layout": "narrow",
+    "theme": "dark",
+    "w": 4.0,
+    "h": 5.751,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "step-two-narrow-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ20-bare",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 0.845,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "step-two-bare.svg"
+  },
+  {
+    "name": "GOAT-EQ23",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 2.278,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "limit-wide-light.svg"
+  },
+  {
+    "name": "GOAT-EQ23",
+    "layout": "wide",
+    "theme": "dark",
+    "w": 8.0,
+    "h": 2.278,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "limit-wide-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ23",
+    "layout": "narrow",
+    "theme": "light",
+    "w": 4.0,
+    "h": 2.266,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "limit-narrow-light.svg"
+  },
+  {
+    "name": "GOAT-EQ23",
+    "layout": "narrow",
+    "theme": "dark",
+    "w": 4.0,
+    "h": 2.266,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "limit-narrow-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ23-bare",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 0.846,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "limit-bare.svg"
+  },
+  {
+    "name": "GOAT-EQ24",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 2.998,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "pvalue-wide-light.svg"
+  },
+  {
+    "name": "GOAT-EQ24",
+    "layout": "wide",
+    "theme": "dark",
+    "w": 8.0,
+    "h": 2.998,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "pvalue-wide-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ24",
+    "layout": "narrow",
+    "theme": "light",
+    "w": 4.0,
+    "h": 5.885,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "pvalue-narrow-light.svg"
+  },
+  {
+    "name": "GOAT-EQ24",
+    "layout": "narrow",
+    "theme": "dark",
+    "w": 4.0,
+    "h": 5.885,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "pvalue-narrow-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ24-bare",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 1.76,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "pvalue-bare.svg"
+  },
+  {
+    "name": "GOAT-EQ25",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 3.587,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "family-wise-wide-light.svg"
+  },
+  {
+    "name": "GOAT-EQ25",
+    "layout": "wide",
+    "theme": "dark",
+    "w": 8.0,
+    "h": 3.587,
+    "min_px": 13.98,
+    "problems": [],
+    "file": "family-wise-wide-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ25",
+    "layout": "narrow",
+    "theme": "light",
+    "w": 4.0,
+    "h": 6.522,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "family-wise-narrow-light.svg"
+  },
+  {
+    "name": "GOAT-EQ25",
+    "layout": "narrow",
+    "theme": "dark",
+    "w": 4.0,
+    "h": 6.522,
+    "min_px": 13.9,
+    "problems": [],
+    "file": "family-wise-narrow-dark.svg"
+  },
+  {
+    "name": "GOAT-EQ25-bare",
+    "layout": "wide",
+    "theme": "light",
+    "w": 8.0,
+    "h": 1.61,
+    "min_px": 14.53,
+    "problems": [],
+    "file": "family-wise-bare.svg"
+  }
+]

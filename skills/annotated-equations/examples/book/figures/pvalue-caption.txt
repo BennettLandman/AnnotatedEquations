@@ -1,0 +1,3 @@
+The tail holds 56 of 1,024 sequences, so eight heads is not quite surprising enough at α = 0.05.
+
+Alt text: Annotated calculation: p equals 45 + 10 + 1, divided by 2 to the 10, about 0.0547. Blue: the one-sided p-value. Black: the numbers of sequences with 8, 9, or 10 heads. Brown: 2 to the 10, the 1,024 equally likely sequences. Salmon: the result, just above alpha = 0.05. Inset: the probabilities of 0 to 10 heads in 10 fair flips, with the 8-, 9-, and 10-head tail in salmon: 56 of 1,024 sequences.

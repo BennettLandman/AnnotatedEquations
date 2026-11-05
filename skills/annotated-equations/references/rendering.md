@@ -14,6 +14,10 @@ By default this exports four SVGs and four PNGs (wide/narrow × light/dark), a c
 
 Exit 0 means geometry checks passed, 1 means outputs exist but have reported layout/readability problems, and 2 means invalid input or a rendering error. Do not deliver a flagged figure as final without resolving or explicitly describing the issue. Existing output files of the same names are replaced; use a new output folder when preserving revisions.
 
+## Book examples: grouping and custom behavior
+
+For six real teaching cases, see [teaching-examples.md](teaching-examples.md), `../examples/book/equations.json`, and its `build_examples.py`. Run that generator with `--output` to reproduce the cases, plain baselines, and light/dark phone/desktop variants. That richer book JSON is a separate format consumed by its own generator; do not pass it to `render_equation.py`. The simple CLI schema below remains useful for new figures and sampled curves.
+
 ## Specification
 
 See `../examples/area.json` and `../examples/decay.json` for complete working inputs.

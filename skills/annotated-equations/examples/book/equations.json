@@ -1,0 +1,347 @@
+[
+  {
+    "id": "EQ03",
+    "slug": "fraction",
+    "fs": [
+      32,
+      28
+    ],
+    "wide": [
+      [
+        0,
+        [
+          [
+            "$f_n$",
+            "estimate",
+            "share of food\nthe goat reaches"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$V_n(r)$",
+            "constant",
+            "ball volume:\nreachable grass"
+          ],
+          [
+            "$/$",
+            "operator"
+          ],
+          [
+            "$(2r)^n$",
+            "error",
+            "field volume:\ngrows with corners"
+          ]
+        ]
+      ]
+    ],
+    "narrow": [
+      [
+        0,
+        [
+          [
+            "$f_n$",
+            "estimate",
+            "share of\nfood reached"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$V_n(r)$",
+            "constant",
+            "ball\nvolume",
+            0,
+            "above"
+          ],
+          [
+            "$/$",
+            "operator"
+          ],
+          [
+            "$(2r)^n$",
+            "error",
+            "field\nvolume"
+          ]
+        ]
+      ]
+    ],
+    "title": "corners out of reach",
+    "source_id": "GOAT-EQ03",
+    "inset": "inset_corners",
+    "alt_text": "Annotated equation: f n equals V n of r divided by 2r to the power n. Blue: the share of food the goat reaches. Brown: the ball’s volume, the reachable grass. Salmon: the field’s volume. Inset: stacked bars for dimensions 1 to 8, blue for the reachable share and salmon for the corners; the blue part shrinks as n grows.",
+    "takeaway": "The food share is a ratio of two volumes, and the field’s corners grow faster than the ball."
+  },
+  {
+    "id": "EQ04",
+    "slug": "cancel",
+    "fs": [
+      30,
+      24
+    ],
+    "wide": [
+      [
+        0,
+        [
+          [
+            "$f_n$",
+            "estimate"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$C_n\\,r^n$",
+            "constant",
+            "ball, radius r",
+            0,
+            "above"
+          ],
+          [
+            "$/$",
+            "operator"
+          ],
+          [
+            "$2^n\\,r^n$",
+            "constant",
+            "field, side 2r",
+            0,
+            "above"
+          ]
+        ]
+      ],
+      [
+        -0.75,
+        [
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$C_n$",
+            "estimate",
+            "unit-ball\nvolume"
+          ],
+          [
+            "$/$",
+            "operator"
+          ],
+          [
+            "$2^n$",
+            "error",
+            "unit-field\nvolume"
+          ]
+        ]
+      ]
+    ],
+    "title": "rope length cancels",
+    "source_id": "GOAT-EQ04",
+    "inset": "inset_rope_cancels",
+    "alt_text": "Annotated equations in two lines: f n equals C n r to the n over 2 to the n r to the n, which equals C n over 2 to the n. Brown labels mark a ball of radius r and a field of side 2r. Blue: the unit-ball volume C n. Salmon: the unit-field volume 2 to the n. Inset: the share stays flat as the rope length changes, for n = 2, 3, and 5.",
+    "takeaway": "The rope length cancels, so only the dimension decides the goat’s share."
+  },
+  {
+    "id": "EQ20",
+    "slug": "step-two",
+    "fs": [
+      32,
+      28
+    ],
+    "wide": [
+      [
+        0,
+        [
+          [
+            "$f_{n+2}$",
+            "estimate",
+            "share two\ndimensions on"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$\\frac{\\pi}{2(n+2)}$",
+            "error",
+            "at most π/8\nwhen n ≥ 2"
+          ],
+          [
+            "$f_n$",
+            "estimate",
+            "current\nshare",
+            0,
+            "above"
+          ]
+        ]
+      ]
+    ],
+    "title": "never above π/8",
+    "source_id": "GOAT-EQ20",
+    "inset": "inset_step_cap",
+    "alt_text": "Annotated recurrence: f n+2 equals pi over 2 times n + 2, times f n. Blue: the share two dimensions on, and the current share. Salmon: the multiplier, at most pi/8 when n is at least 2. Inset: the multiplier for n = 2 to 12 as bars, all at or below a dashed line at pi/8.",
+    "takeaway": "Because π/8 is less than ½, adding two dimensions at least halves the share once n ≥ 2."
+  },
+  {
+    "id": "EQ23",
+    "slug": "limit",
+    "fs": [
+      34,
+      30
+    ],
+    "wide": [
+      [
+        0,
+        [
+          [
+            "$\\lim_{n\\to\\infty}$",
+            "constant",
+            "ever more\ndimensions"
+          ],
+          [
+            "$f_n$",
+            "estimate",
+            "share the goat\ncan reach",
+            0,
+            "above"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$0$",
+            "error",
+            "limit only:\neach fₙ > 0"
+          ]
+        ]
+      ]
+    ],
+    "source_id": "GOAT-EQ23",
+    "inset": null,
+    "alt_text": "Annotated limit: the limit as n goes to infinity of f n equals 0. Brown: as the dimension grows without end. Blue: the share the goat can reach. Salmon: zero, which no single dimension reaches, because every share is positive.",
+    "takeaway": "The share gets as small as you like, even though every finite-dimensional goat still eats something."
+  },
+  {
+    "id": "EQ24",
+    "slug": "pvalue",
+    "fs": [
+      30,
+      24
+    ],
+    "wide": [
+      [
+        0,
+        [
+          [
+            "$p$",
+            "estimate",
+            "one-sided\np-value"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$(45+10+1)$",
+            "data",
+            "sequences with\n8, 9, or 10 heads",
+            0,
+            "above"
+          ],
+          [
+            "$/$",
+            "operator"
+          ],
+          [
+            "$2^{10}$",
+            "constant",
+            "equally likely\nsequences"
+          ]
+        ]
+      ],
+      [
+        -1.1,
+        [
+          [
+            "$\\approx$",
+            "operator"
+          ],
+          [
+            "$0.0547$",
+            "error",
+            "just above α = 0.05"
+          ]
+        ]
+      ]
+    ],
+    "title": "tail: 56 of 1,024",
+    "source_id": "GOAT-EQ24",
+    "inset": "inset_binomial",
+    "alt_text": "Annotated calculation: p equals 45 + 10 + 1, divided by 2 to the 10, about 0.0547. Blue: the one-sided p-value. Black: the numbers of sequences with 8, 9, or 10 heads. Brown: 2 to the 10, the 1,024 equally likely sequences. Salmon: the result, just above alpha = 0.05. Inset: the probabilities of 0 to 10 heads in 10 fair flips, with the 8-, 9-, and 10-head tail in salmon: 56 of 1,024 sequences.",
+    "takeaway": "The tail holds 56 of 1,024 sequences, so eight heads is not quite surprising enough at α = 0.05."
+  },
+  {
+    "id": "EQ25",
+    "slug": "family-wise",
+    "fs": [
+      30,
+      24
+    ],
+    "wide": [
+      [
+        0,
+        [
+          [
+            "$\\mathrm{FWER}$",
+            "error",
+            "chance of any\nfalse positive",
+            0,
+            "above"
+          ],
+          [
+            "$=$",
+            "operator"
+          ],
+          [
+            "$1-$",
+            "operator"
+          ],
+          [
+            "$(1-\\alpha)^m$",
+            "estimate",
+            "all m independent\ntests stay quiet",
+            0,
+            "above"
+          ]
+        ]
+      ],
+      [
+        -0.95,
+        [
+          [
+            "$\\alpha$",
+            "constant",
+            "per-test\nthreshold"
+          ],
+          [
+            "$\\rightarrow$",
+            "operator"
+          ],
+          [
+            "$\\alpha/m$",
+            "estimate",
+            "Bonferroni\ncutoff"
+          ]
+        ]
+      ]
+    ],
+    "title": "20 tests: 64% vs 4.9%",
+    "source_id": "GOAT-EQ25",
+    "inset": "inset_fwer",
+    "alt_text": "Annotated equations: FWER equals 1 minus 1 − alpha to the power m, and the per-test threshold alpha becomes alpha over m under Bonferroni. Salmon: the family-wise error rate, the chance of any false positive. Blue: 1 − alpha to the m, the chance that all m independent tests stay quiet, and the Bonferroni cutoff alpha over m. Brown: the per-test threshold alpha. Inset: the chance of any false positive for 1 to 60 tests; uncorrected tests at alpha = 0.05 climb to 64% at 20 tests, while Bonferroni stays just under 5%.",
+    "takeaway": "Twenty independent tests at α = 0.05 give a 64% chance of at least one false positive; Bonferroni brings it back to 4.9%."
+  }
+]

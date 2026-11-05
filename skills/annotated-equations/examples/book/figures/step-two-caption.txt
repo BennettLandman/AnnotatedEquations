@@ -1,0 +1,3 @@
+Because π/8 is less than ½, adding two dimensions at least halves the share once n ≥ 2.
+
+Alt text: Annotated recurrence: f n+2 equals pi over 2 times n + 2, times f n. Blue: the share two dimensions on, and the current share. Salmon: the multiplier, at most pi/8 when n is at least 2. Inset: the multiplier for n = 2 to 12 as bars, all at or below a dashed line at pi/8.
