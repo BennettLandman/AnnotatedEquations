@@ -1,0 +1,32 @@
+{
+  "name": "reachable-area",
+  "alt_text": "A equals pi times r squared. A is the reachable area; r squared describes the effect of rope length squared. Pi is the circle constant.",
+  "takeaway": "Doubling the rope length quadruples the reachable area in this circular model.",
+  "rows": [
+    {
+      "y": 0,
+      "terms": [
+        {
+          "tex": "$A$",
+          "role": "estimate",
+          "label": "reachable\narea"
+        },
+        {
+          "tex": "$=$",
+          "role": "operator"
+        },
+        {
+          "tex": "$\\pi$",
+          "role": "constant",
+          "label": "circle\nconstant"
+        },
+        {
+          "tex": "$r^2$",
+          "role": "data",
+          "label": "rope length\nsquared",
+          "side": "above"
+        }
+      ]
+    }
+  ]
+}

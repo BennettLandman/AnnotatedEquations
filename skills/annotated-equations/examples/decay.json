@@ -1,0 +1,140 @@
+{
+  "name": "exponential-decay",
+  "alt_text": "S of t equals S zero times exp of negative t over tau. S is the remaining signal, S zero the initial signal, and the exponential the decay factor. The inset shows relative signal decreasing over time measured in time constants.",
+  "takeaway": "After one time constant, about 37 percent of the initial signal remains in this ideal exponential model.",
+  "palette": {
+    "light": {
+      "estimate": "#006D77",
+      "error": "#A94C13",
+      "background": "#FFFFFF"
+    },
+    "dark": {
+      "estimate": "#83D6D0",
+      "error": "#FFBE85",
+      "background": "#14252B"
+    }
+  },
+  "rows": [
+    {
+      "y": 0,
+      "terms": [
+        {
+          "tex": "$S(t)$",
+          "role": "estimate",
+          "label": "remaining\nsignal"
+        },
+        {
+          "tex": "$=$",
+          "role": "operator"
+        },
+        {
+          "tex": "$S_0$",
+          "role": "constant",
+          "label": "initial\nsignal"
+        },
+        {
+          "tex": "$e^{-t/\\tau}$",
+          "role": "error",
+          "label": "decay\nfactor"
+        }
+      ]
+    }
+  ],
+  "inset": {
+    "title": "Relative signal falls",
+    "xlabel": "time / time constant",
+    "ylabel": "signal / initial",
+    "series": [
+      {
+        "label": "ideal decay",
+        "role": "estimate",
+        "x": [
+          0.0,
+          0.1,
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0,
+          1.1,
+          1.2,
+          1.3,
+          1.4,
+          1.5,
+          1.6,
+          1.7,
+          1.8,
+          1.9,
+          2.0,
+          2.1,
+          2.2,
+          2.3,
+          2.4,
+          2.5,
+          2.6,
+          2.7,
+          2.8,
+          2.9,
+          3.0,
+          3.1,
+          3.2,
+          3.3,
+          3.4,
+          3.5,
+          3.6,
+          3.7,
+          3.8,
+          3.9,
+          4.0
+        ],
+        "y": [
+          1.0,
+          0.9048374180359595,
+          0.8187307530779818,
+          0.7408182206817179,
+          0.6703200460356393,
+          0.6065306597126334,
+          0.5488116360940264,
+          0.4965853037914095,
+          0.44932896411722156,
+          0.4065696597405991,
+          0.36787944117144233,
+          0.33287108369807955,
+          0.30119421191220214,
+          0.2725317930340126,
+          0.2465969639416065,
+          0.22313016014842982,
+          0.20189651799465538,
+          0.18268352405273466,
+          0.16529888822158653,
+          0.14956861922263506,
+          0.1353352832366127,
+          0.1224564282529819,
+          0.11080315836233387,
+          0.10025884372280375,
+          0.09071795328941251,
+          0.0820849986238988,
+          0.07427357821433388,
+          0.06720551273974976,
+          0.06081006262521797,
+          0.05502322005640723,
+          0.049787068367863944,
+          0.0450492023935578,
+          0.04076220397836621,
+          0.036883167401240015,
+          0.03337326996032608,
+          0.0301973834223185,
+          0.02732372244729256,
+          0.024723526470339388,
+          0.0223707718561656,
+          0.02024191144580439,
+          0.01831563888873418
+        ]
+      }
+    ]
+  }
+}
